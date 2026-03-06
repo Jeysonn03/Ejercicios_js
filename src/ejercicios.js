@@ -37,26 +37,26 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 // Test 7
-function devolverString(str) {
+function devolverString(str) {return ("Hola");
 	// "Return" la string provista: str
 	// Tu código:
 }
 
 // Test 8
-function suma(x, y) {
+function suma(x, y) {suma (x + y)
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
 }
 
 // Test 9
-function resta(x, y) {
+function resta(x, y) {resta (x - y)
 	// Resta "y" de "x" y devuelve el valor
 	// Tu código:
 }
 
 // Test 10
-function divide(x, y) {
+function divide(x, y) {divide (x / y)
 	// Divide "x" entre "y" y devuelve el valor
 	// Tu código:
 }

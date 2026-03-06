@@ -177,39 +177,39 @@ function combinarNombres(nombre, apellido) {return nombre + " " + apellido
 }
 
 // Test 28
-function obtenerSaludo(nombre) {
+function obtenerSaludo(nombre) {return "Hola " + nombre + "!"
 	// Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
 	// "Martin" -> "Hola Martin!"
 	// Tu código:
 }
 
 // Test 29
-function obtenerAreaRectangulo(alto, ancho) {
+function obtenerAreaRectangulo(alto, ancho) {return alto * ancho
 	// Retornar el area de un rectángulo teniendo su altura y ancho
 	// Tu código:
 }
 
 // Test 30
-function retornarPerimetro(lado) {
+function retornarPerimetro(lado) {return lado * 4
 	//Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
 	//Escribe tu código aquí
 }
 
 // Test 31
-function areaDelTriangulo(base, altura) {
+function areaDelTriangulo(base, altura) {return (base * altura) / 2
 	//Desarrolle una función que calcule el área de un triángulo.
 	//Escribe tu código aquí
 }
 
 // Test 32
-function deEuroAdolar(euro) {
+function deEuroAdolar(euro) {return euro*1.20
 	//Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
 	//como parámetro un número de euros y calcule el cambio en dólares.
 	//Escribe tu código aquí
 }
 
 // Test 33
-function esVocal(letra) {
+function esVocal(letra) {return"Dato incorrecto";return"aeiouAEIOU".includes(letra)?"Es vocal":"Dato incorrecto"
 	//Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
 	//Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
 	//que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
@@ -221,6 +221,39 @@ function esVocal(letra) {
 // --------------------------------
 
 module.exports = {
+	nuevaString,
+	nuevoNum,
+	nuevoBool,
+	nuevaResta,
+	nuevaMultiplicacion,
+	nuevoModulo,
+	devolverString,
+	tienenMismaLongitud,
+	sonIguales,
+	menosQueNoventa,
+	mayorQueCincuenta,
+	suma,
+	resta,
+	divide,
+	multiplica,
+	obtenerResto,
+	esPar,
+	esImpar,
+	elevarAlCuadrado,
+	elevarAlCubo,
+	elevar,
+	redondearNumero,
+	redondearHaciaArriba,
+	numeroRandom,
+	esPositivo,
+	agregarSimboloExclamacion,
+	combinarNombres,
+	obtenerSaludo,
+	obtenerAreaRectangulo,
+	retornarPerimetro,
+	areaDelTriangulo,
+	deEuroAdolar,
+	esVocal,
 	nuevaString,
 	nuevoNum,
 	nuevoBool,

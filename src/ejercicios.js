@@ -147,14 +147,14 @@ function redondearHaciaArriba(num) { return Math.ceil(num);
 }
 
 // Test 24
-function numeroRandom() {
+function numeroRandom() { return Math.random();
 	//Generar un número al azar entre 0 y 1 y devolverlo
 	//Pista: investigá qué hace el método Math.random()
 	// Tu código:
 }
 
 // Test 25
-function esPositivo(numero) {
+function esPositivo(numero) {if(numero>0)return"Es positivo";if(numero<0)return"Es negativo";return false;
 	//La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
 	//Si el número es positivo, devolver ---> "Es positivo"
 	//Si el número es negativo, devolver ---> "Es negativo"
@@ -163,14 +163,14 @@ function esPositivo(numero) {
 }
 
 // Test 26
-function agregarSimboloExclamacion(str) {
+function agregarSimboloExclamacion(str) {return str + "!"
 	// Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
 	// Ejemplo: "hello world" pasaría a ser "hello world!"
 	// Tu código:
 }
 
 // Test 27
-function combinarNombres(nombre, apellido) {
+function combinarNombres(nombre, apellido) {return nombre + " " + apellido
 	// Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
 	// Ejemplo: "Soy", "Hola" -> "Soy Hola"
 	// Tu código:

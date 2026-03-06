@@ -209,7 +209,8 @@ function deEuroAdolar(euro) {return euro*1.20
 }
 
 // Test 33
-function esVocal(letra) {return"Dato incorrecto";return"aeiouAEIOU".includes(letra)?"Es vocal":"Dato incorrecto"
+function esVocal(letra) {return "Dato incorrecto";
+ 
 	//Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
 	//Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
 	//que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
@@ -221,39 +222,6 @@ function esVocal(letra) {return"Dato incorrecto";return"aeiouAEIOU".includes(let
 // --------------------------------
 
 module.exports = {
-	nuevaString,
-	nuevoNum,
-	nuevoBool,
-	nuevaResta,
-	nuevaMultiplicacion,
-	nuevoModulo,
-	devolverString,
-	tienenMismaLongitud,
-	sonIguales,
-	menosQueNoventa,
-	mayorQueCincuenta,
-	suma,
-	resta,
-	divide,
-	multiplica,
-	obtenerResto,
-	esPar,
-	esImpar,
-	elevarAlCuadrado,
-	elevarAlCubo,
-	elevar,
-	redondearNumero,
-	redondearHaciaArriba,
-	numeroRandom,
-	esPositivo,
-	agregarSimboloExclamacion,
-	combinarNombres,
-	obtenerSaludo,
-	obtenerAreaRectangulo,
-	retornarPerimetro,
-	areaDelTriangulo,
-	deEuroAdolar,
-	esVocal,
 	nuevaString,
 	nuevoNum,
 	nuevoBool,
